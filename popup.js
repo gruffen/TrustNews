@@ -77,7 +77,7 @@ function showText(show)
 {
     document.getElementById(show).className = "show";
     document.getElementById(hide).className = "hide";
-}
+};
 
   //Load data
 	// Call to function with anonymous callback
