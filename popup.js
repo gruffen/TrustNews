@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function() {
   //Load data
 	// Call to function with anonymous callback
 	loadJSON(function(response) {
-		alert("hello world");
 		// Do Something with the response e.g.
 		jsonresponse = JSON.parse(response);
 
