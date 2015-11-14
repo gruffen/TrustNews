@@ -15,6 +15,9 @@
         font-family: "Segoe UI", "Arial", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
       }
+      div.hide { 
+       display:none;
+      }
       #status {
         /* avoid an excessively wide status text */
         white-space: pre;
@@ -42,6 +45,8 @@
     
 <a onclick="showText('text1','text2')" href="javascript:void(0);">Show Text 1</a>
 <div id="text1" class="hide"> text1 </div>
+<a onclick="showText('text2','text1')" href="javascript:void(0);">Show Text 2</a>
+<div id="text2" class="hide"> text2 </div>
 
    
     <img id="image-result" hidden>
