@@ -72,6 +72,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		parser.host;     // => "example.com:3000"
      renderStatus(parser.hostname);
   });
+  
+  function showDiv(){
+  	document.getElementById('welcomeDiv').style.display = "block";
+  }
 
   //Load data
 	// Call to function with anonymous callback
