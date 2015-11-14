@@ -73,9 +73,9 @@ document.addEventListener('DOMContentLoaded', function() {
      renderStatus(parser.hostname);
   });
   
-  function showDiv(){
+  function showText(){
   	document.getElementById('welcomeDiv').style.display = "block";
-  }
+  });
 
   //Load data
 	// Call to function with anonymous callback
