@@ -76,6 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function showText(show)
 {
     document.getElementById(show).className = "show";
+    document.getElementById(hide).className = "hide";
 }
 
   //Load data
